@@ -1,0 +1,37 @@
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span_2_of_2 {
+	width: 100%;
+}
+
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2 {
+		width: 100%; 
+	}
+}
+
+/*  COLUMN SETUP  */
+#login .col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 10%;
+}
+
+#login .span_2_of_2 {
+	width: 100%;
+}
+#login .span_1_of_2 {
+	width: 45%;
+}
+
+#login .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */

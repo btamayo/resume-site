@@ -1,0 +1,398 @@
+.profile-card-container {
+  margin: 10px;
+  overflow: hidden;
+  width: 359px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.profile-card-container .profile-picture-container {
+  overflow: hidden;
+  width: 373px;
+  height: 265px;
+  background: url("secretary.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.profile-card-information {
+  padding: 25px;
+}
+
+.profile-card-container .header {
+  margin: 10px;
+}
+
+.profile-card-container .name {
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #3e3e3e;
+}
+
+.profile-card-container .title {
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #6a6a6a;
+}
+
+.profile-card-container .information {
+  padding: 25px;
+  text-align: center;
+  margin: 10px;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6a6a6a;
+}
+
+.profile-card-container .bio {
+  text-align: center;
+  margin: 10px;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6a6a6a;
+}
+
+.user-profile-header {
+  padding: 10px;
+}
+.user-profile-header .name-title-block {
+  padding-top: 10px;
+  text-align: center;
+}
+.user-profile-header .name {
+  padding: 0px;
+  font-size: 21px;
+  font-weight: 700;
+}
+.user-profile-header .bio {
+  padding: 5px 0px;
+}
+.user-profile-header .title {
+  text-transform: uppercase;
+  color: #808080;
+}
+.user-profile-header .verified {
+  text-align: center;
+  font-size: 17px;
+}
+.user-profile-header .info-block {
+  text-align: center;
+  padding: 4px 0px;
+  font-size: 18px;
+}
+.user-profile-header .info-block .subtitle {
+  text-transform: uppercase;
+  color: #C57494;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.user-profile-header .availability {
+  font-size: 12px;
+  padding: 10px;
+  color: green;
+  letter-spacing: 1.1px;
+}
+.user-profile-header .icon {
+  min-width: 20px;
+  width: 20px;
+  max-width: 20px;
+  text-align: center;
+}
+.user-profile-header .icon .glyphicon {
+  font-size: 14px;
+}
+.user-profile-header .contact-info-block {
+  padding: 10px 0px;
+}
+.user-profile-header .contact-info {
+  margin: 5px;
+}
+
+.user-profile-section {
+  padding: 10px;
+}
+.user-profile-section .review {
+  margin: 15px 0px;
+}
+.user-profile-section .review .ratings {
+  color: #F5B510;
+  font-size: 130%;
+}
+.user-profile-section .review .reviewer {
+  margin-top: 10px;
+}
+.user-profile-section .review-body .col-xs-2 {
+  padding: 0px;
+}
+.user-profile-section .star .fa-star {
+  color: #F9C94F;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 991px) {
+  .user-profile-header .name-title-block {
+    text-align: center;
+  }
+}
+
+
+body {
+  font-family: "Lato";
+  font-size: 15px;
+  background-color: rgba(125, 100, 106, 0.31);
+  letter-spacing: 0.2pt;
+}
+
+.main-content-wrapper {
+  background-color: white;
+}
+
+a {
+  color: #C57494;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #24968D;
+  text-decoration: none;
+}
+
+.h1 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+h1, h2, h3, h4 {
+  margin: 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+.content-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.wrapper-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* User Avatar */
+.user-avatar-lg, .user-avatar-lg img {
+  width: 120px;
+  height: 120px;
+  -webkit-border-radius: 99em;
+  /* Saf3+, Chrome */
+  border-radius: 99em;
+  /* Opera 10.5, IE 9 */
+  /*-moz-border-radius: 99em;  Disabled for FF1+ */
+  -webkit-background-size: cover;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  background-origin: padding-box;
+  background-position: 50% 50%;
+}
+
+.user-avatar-lg {
+  border: 2px solid #c7b89e;
+}
+
+.extended-bio {
+  font-family: 'Lora', 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+.sidebar-box {
+  background-color: white;
+  padding: 10px;
+}
+
+.sidebar-box h4 {
+  padding: 0px;
+  margin: 5px 0px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.accent-blue {
+  color: #42b3bb;
+}
+
+.accent-red {
+  color: #ef5f48;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  color: #C57494;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.light-grey {
+  color: #8C8C8C;
+}
+
+.icon-line {
+  margin: 10px 0px;
+}
+
+.icon-line .fa {
+  width: 15px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.no-padding {
+  padding: 0 0 0 0;
+}
+
+.no-margin {
+  margin: 0 0 0 0;
+}
+
+.title-block {
+  padding-top: 10px;
+}
+.title-block .title {
+  padding: 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.title-block .title .role {
+  font-size: 13px;
+}
+.title-block .bio {
+  padding: 5px 0px;
+}
+.title-block .role {
+  text-transform: uppercase;
+  color: #8C8C8C;
+}
+
+.center {
+  text-align: center;
+}
+
+.progress {
+  height: 15px;
+  border-radius: 2px;
+}
+
+.progress-bar {
+  background-color: rgba(109, 37, 91, 0.64);
+}
+
+.skills .row {
+  margin-top: 20px;
+}
+
+.skills {
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+.skills .header {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.user-profile-section {
+  margin-bottom: 35px;
+  padding: 20px;
+}
+
+.col-bio {
+  padding: 20px 40px;
+  background-color: #fbfbfb;
+  line-height: 1.5em;
+  letter-spacing: 0.025em;
+  color: #3C3C3C;
+}
+
+.right-header {
+  color: #777777;
+  text-align: right;
+}
+
+.medium-grey {
+  color: #777777;
+}
+
+li {
+  padding: 2px 0px;
+}
+
+textarea.json {
+  font-family: Monaco, Andale Mono, monospace;
+  font-size: smaller;
+  resize: none;
+  height: 300px;
+}
+
+.main-content-wrapper {
+  border-radius: 8px;
+}
+
+
+.has-success .help-block {
+  color: #4c694c;
+}
+
+.footer-block a {
+  cursor: pointer;
+  color: #755c74;
+}
+
+.footer-block a:hover {
+  cursor: pointer;
+  color: #755c74;
+  text-decoration: underline;
+}
+
+.footer-block .btn {
+  min-width: 100px;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: 0;
+}
+
+.footer-block .btn {
+  border: 1px solid #3e443e;
+  color: #3e443e;
+  background-color: transparent;
+}
+
+.footer-block .btn:hover {
+  border: 1px solid #3e443e;
+  color: #3e443e;
+  background-color: #eeeeee;
+}
